@@ -1,15 +1,18 @@
 {
-  "name": "name",
+  "name": "ICEFLO",
   "version": "0.0.1",
-  "description": "description",
-  "author": "author",
+  "description": "Iceflo - NextGen",
+  "author": "Marzio Superina",
   "license": "MIT",
   "scripts": {
     "build": "sh ./scripts/build.sh",
+    "preinstall": "sh ./scripts/preinstall.sh",
+    "postinstall": "sh ./scripts/postinstall.sh",
+    "postupdate": "sh ./scripts/postupdate.sh",
     "start": "sh ./scripts/start.sh",
     "start-no-hot": "sh ./scripts/start-no-hot.sh",
     "test": "sh ./scripts/test.sh",
-    "test-watch": "sh ./scripts/test-watch.sh"
+    "test-watch": "sh ./scripts/test-watch.sh" 
   },
   "devDependencies": {
     "css-loader": "^0.23.1",
