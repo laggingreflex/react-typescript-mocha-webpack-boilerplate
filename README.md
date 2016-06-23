@@ -1,7 +1,6 @@
 ## Usage
 
 - To install the dependencies
-> npm init<br />
 > npm install --save-dev<br />
 
 - To start a local development server with webpack
