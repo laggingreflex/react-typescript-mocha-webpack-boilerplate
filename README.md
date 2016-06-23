@@ -7,12 +7,14 @@
 - To start a local development server with webpack
 > npm run start                 // with hot reloading<br />
 > npm run start-no-hot          // without hot reloading (IE8, IE9)<br />
+This command loads the resulting html and bundles in memory in dist-dev/ folder.
 
 - To test with mocha ( see test/mocha.opts for the configuration )
 > npm run test<br />
 
 - To build the minified code
 > npm run build<br />
+Creates a dist/ folder with all the html and bundles.
 
 The project can be built or start without the typings folder, as long as a typings.json file is provided in the root folder.<br /> 
 The build and start scripts automatically install the typings.
