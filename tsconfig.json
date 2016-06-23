@@ -1,0 +1,27 @@
+{
+    
+    "compileOnSave": true,
+    
+    "compilerOptions": {
+        "forceConsistentCasingInFileNames": true,
+        "jsx": "react",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "newLine": "LF",
+        "pretty": true,
+        "sourceMap": true,
+        "target": "es3",
+        "version": true,
+        "watch": true
+    },
+    
+    "exclude": [
+        "dist",
+        "node_modules",
+        "package",
+        "scripts",
+        "stylesheets",
+        "webpack"
+    ]
+
+}

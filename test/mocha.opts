@@ -1,0 +1,9 @@
+test/**/*.ts 
+test/**/*.tsx
+--recursive 
+--require ignore-styles
+--require test/setup-dom.js
+--require test/setup-fetch.js
+--require ts-node/register
+--colors 
+--debug
