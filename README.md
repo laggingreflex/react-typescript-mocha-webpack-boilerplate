@@ -1,3 +1,22 @@
+## Usage
+
+- To install the dependencies
+> npm init<br />
+> npm install --save-dev<br />
+
+- To start a local development server with webpack
+> npm run start                 // with hot reloading<br />
+> npm run start-no-hot          // without hot reloading (IE8, IE9)<br />
+
+- To test with mocha ( see test/mocha.opts for the configuration )
+> npm run test<br />
+
+- To build the minified code
+> npm run build<br />
+
+The project can be built or start without the typings folder, as long as a typings.json file is provided in the root folder.<br /> 
+The build and start scripts automatically install the typings.
+
 ## Browser compatibility
 
 Source: [Can I use](http://caniuse.com/)<br />
@@ -45,9 +64,10 @@ Core dependencies needed by all the browser
 > redux-mock-store: ^1.1.1<br/>
 
 - to speed up and simplify the development
-> es6-promise: ^3.2.1<br/>
-> whatwg-fetch<br/>
 > immutable: ^3.8.1<br/>
+> whatwg-fetch            // IE, Safari and iOS Safari specific<br/>
+> es6-promise: ^3.2.1     // IE (not Edge) specific<br/>
+
 
 IE9 specific
 
